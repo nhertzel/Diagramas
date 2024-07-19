@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2024-07-19T10:02:42.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x8uXwHazjnDY-cYxVf0m" version="24.7.1" type="github">
+  <diagram name="Página-1" id="Dr3p4S7zPRtVfybd-5ty">
+    <mxGraphModel dx="1290" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-2" value="GERENCIAR PAGAMENTOS PENDENTES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-4" value="PROCESSAR PAGAMENTO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-5" target="Y3ODHWRe5vrafWBGQ1nY-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428.28427124746213" y="-59.99572875253784" as="sourcePoint" />
+            <mxPoint x="480" y="11.720000000000027" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-5" target="Y3ODHWRe5vrafWBGQ1nY-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="95" as="sourcePoint" />
+            <mxPoint x="410" y="245" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.622;exitY=-0.018;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-2" target="X-NtinbLyDAffav8ZQAa-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" as="sourcePoint" />
+            <mxPoint x="290" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-15" value="PAGAR TOTAL OU PARCIAL AO FINALIZAR A MARCAÇÃO NA PLATAFORMA, DADOS DE COBRANÇA" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-80" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-16" value="GERAR FARUTA ENVIAR AO CLIENTE" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-21" value="EMITIR FATURA E REGISTAR FATURA" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="80" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3ODHWRe5vrafWBGQ1nY-27" value="DETALHES DE PAGAMENTO DO CLIENTE (cartão de credito, débito, mbway, etc)" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="720" y="200" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-1" value="GESTÃO DE FINANCEIRO E CONTÁBIL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="180" y="-270" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-2" value="INSTITUIÇÕES FINANCEIRAS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="190" y="220" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-1" target="X-NtinbLyDAffav8ZQAa-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238" y="110" as="sourcePoint" />
+            <mxPoint x="220" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-5" value="EMITIR FATURA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.408;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-2" target="Y3ODHWRe5vrafWBGQ1nY-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="510" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="351" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.157;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-4" target="Y3ODHWRe5vrafWBGQ1nY-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="330" as="sourcePoint" />
+            <mxPoint x="670" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="180" />
+              <mxPoint x="770" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-9" value="VERIFICAR E APROVAR PAGAMENTO" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="720" y="280" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-4" target="X-NtinbLyDAffav8ZQAa-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="sourcePoint" />
+            <mxPoint x="700" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="250" />
+              <mxPoint x="570" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-4" target="X-NtinbLyDAffav8ZQAa-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="310" as="sourcePoint" />
+            <mxPoint x="635" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-12" value="CONFIRMAR PAGAMENTO E ATUALIZAR NO REGISTO FINANCEIRO" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="720" y="360" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.624;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-2" target="Y3ODHWRe5vrafWBGQ1nY-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="370" y="365" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-2" target="X-NtinbLyDAffav8ZQAa-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="670" y="479" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="460" />
+              <mxPoint x="600" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-15" value="LISTA ADE PAGAMENTOS PARCIAIS PENDENTES" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="480" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-17" value="ENVIO DE LEMBRETES AO PROFISSIONAL E CLIENTE" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="560" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-18" value="ATUALIZAR STATUS E MÉTODO DO RESTANTE DO PAGAMENTO ATRAVÉS DA PLATAFORMA&amp;nbsp;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="520" y="640" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-2" target="X-NtinbLyDAffav8ZQAa-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="500" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="550" />
+              <mxPoint x="500" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-2" target="X-NtinbLyDAffav8ZQAa-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="600" as="sourcePoint" />
+            <mxPoint x="500" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="X-NtinbLyDAffav8ZQAa-5" target="Y3ODHWRe5vrafWBGQ1nY-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="10" as="sourcePoint" />
+            <mxPoint x="530" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X-NtinbLyDAffav8ZQAa-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y3ODHWRe5vrafWBGQ1nY-2" target="WGJ1yOBd-5Rp__hc_8A--1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.48" y="640" as="sourcePoint" />
+            <mxPoint x="320" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGJ1yOBd-5Rp__hc_8A--1" value="ATUALIZAR RELATÓRIO DE STATUS" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="720" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
